@@ -90,7 +90,6 @@ table{
 
 @media screen and (max-width: 940px) {
   .section-wrap {
-    /*width: 480px;*/
     width: 300px;
     height: 360px;
   }
@@ -136,7 +135,6 @@ footer .section-wrap {
 
 @media screen and (max-width: 940px) {
   .section-content-center {
-    /*width: 480px;*/
     width: 300px;
   }
 }
@@ -260,7 +258,6 @@ footer .section-wrap {
 @media screen and (max-width: 940px) {
   .section-content-header {
     top: 0;
-    /*width: 480px;*/
     width: 300px;
 
   }
@@ -324,7 +321,6 @@ footer .section-wrap {
 
 @media screen and (max-width: 940px) {
   .footer-hero {
-    /*width: 480px;*/
     width: 300px;
     font-size: 36px;
   }
@@ -337,6 +333,8 @@ footer .section-wrap {
   transform: translateX(-50%);
 }
 
+/** form page **/
+
 .form-header {
   position: relative;
   width: 504px;
@@ -346,8 +344,8 @@ footer .section-wrap {
 
 @media screen and (max-width: 940px) {
   .form-header {
-    /*width: 480px;*/
     width: 300px;
+    height: 61px;
   }
 }
 
@@ -358,9 +356,11 @@ footer .section-wrap {
 
 @media screen and (max-width: 940px) {
   .form-section-header {
+    font-size: 21px;
     text-align: left;
-    font-size: 32px;
-    transform: translate3d(-30px, 60px, 0);
+    margin-top: 21px;
+    transform: translate3d(-15px, 20px, 0);
+    margin-bottom: 12px;
   }
 }
 
@@ -371,7 +371,6 @@ footer .section-wrap {
 
 @media screen and (max-width: 940px) {
   .form-content {
-    /*width: 480px;*/
     width: 300px;
   }
 }
