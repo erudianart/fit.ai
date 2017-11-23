@@ -315,3 +315,64 @@ footer .section-wrap {
   margin-left:50%;
   transform: translateX(-50%);
 }
+
+.form-header {
+  position: relative;
+  width: 504px;
+  height: 122px;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 940px) {
+  .form-header {
+    width: 480px;
+  }
+}
+
+.form-section-header {
+  font-size: 36px;
+  transform: translate3d(-30px, 52px, 0);
+}
+
+@media screen and (max-width: 940px) {
+  .form-section-header {
+    text-align: left;
+    font-size: 32px;
+    transform: translate3d(-30px, 60px, 0);
+  }
+}
+
+.form-content {
+  width: 640px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 940px) {
+  .form-content {
+    width: 480px;
+  }
+}
+
+.form-content p {
+  margin-bottom: 2em;
+}
+
+.form-content-gform {
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 940px) {
+  .form-content-gform {
+    display: none;
+  }
+}
+
+.form-content-gformsmall {
+  display:none;
+}
+
+@media screen and (max-width: 940px) {
+  .form-content-gformsmall {
+    display:block;
+  }
+}
